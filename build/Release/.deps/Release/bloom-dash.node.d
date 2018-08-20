@@ -1,0 +1,1 @@
+cmd_Release/bloom-dash.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.9 -arch x86_64 -L./Release -stdlib=libc++  -o Release/bloom-dash.node Release/obj.target/bloom-dash/addon.o Release/obj.target/bloom-dash/BloomFilterWrap.o Release/obj.target/bloom-dash/bloom.o 
