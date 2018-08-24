@@ -8,8 +8,9 @@ Release/obj.target/bloom-dash/BloomFilterWrap.o: ../BloomFilterWrap.cpp \
   /Users/yanghua/.node-gyp/10.7.0/include/node/v8-platform.h \
   /Users/yanghua/.node-gyp/10.7.0/include/node/node_version.h \
   /Users/yanghua/.node-gyp/10.7.0/include/node/node_object_wrap.h \
-  .././bloom.h .././serialize.h .././endian.h .././byteswap.h \
-  .././prevector.h .././uint256.h .././common.h
+  .././bloom.h .././serialize.h .././compat/endian.h \
+  .././compat/byteswap.h .././prevector.h .././uint256.h \
+  .././crypto/common.h
 ../BloomFilterWrap.cpp:
 .././BloomFilterWrap.h:
 /Users/yanghua/.node-gyp/10.7.0/include/node/node.h:
@@ -21,8 +22,8 @@ Release/obj.target/bloom-dash/BloomFilterWrap.o: ../BloomFilterWrap.cpp \
 /Users/yanghua/.node-gyp/10.7.0/include/node/node_object_wrap.h:
 .././bloom.h:
 .././serialize.h:
-.././endian.h:
-.././byteswap.h:
+.././compat/endian.h:
+.././compat/byteswap.h:
 .././prevector.h:
 .././uint256.h:
-.././common.h:
+.././crypto/common.h:
